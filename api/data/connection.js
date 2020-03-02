@@ -1,10 +1,11 @@
 const mysql = require('mysql');
 const connection = mysql.createConnection({
     host     :'localhost',
-    port     :3000,
-    user     :'SYSDBA',
-    password :'masterkey',
-    database :'VETINOVA.ECO'
+    port     :4306,
+    database :'world',
+    user     :'root',
+    password :'oscar051428',
+    insecureAuth : true
 }),
 
 conn = connection;
